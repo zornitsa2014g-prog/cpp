@@ -48,16 +48,10 @@ Architecture summary:
 
 # 🚀 How to Run the Project
 
-Clone the repository:
-git clone https://github.com/your-username/dog-breed-recognition.git
-cd dog-breed-recognition
+This project is designed to run in a **Kaggle Notebook environment**.
 
-Install required libraries:
-pip install tensorflow, numpy, pandas, matplotlib
-
-Train the model:
-model.fit(train_generator, validation_data=val_generator, epochs=25)
-
-Predict a dog breed from a new image:
-predictions = model.predict(image)
+1. Open the Kaggle dataset: Dog Breed Identification.
+2. Create a new Kaggle Notebook using the dataset.
+3. Paste the code from this repository.
+4. Run all cells.
 
